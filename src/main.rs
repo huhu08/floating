@@ -15,6 +15,7 @@
 
    
 // }
+//trying to manipulate floating datatype f32
 const BIAS: i32 = 127;     // <1>
 const RADIX: f32 = 2.0;    // <1>
 
