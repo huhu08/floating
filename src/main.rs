@@ -16,10 +16,10 @@
    
 // }
 //trying to manipulate floating datatype f32
-const BIAS: i32 = 127;     // <1>
-const RADIX: f32 = 2.0;    // <1>
+const BIAS: i32 = 127;     
+const RADIX: f32 = 2.0;   
 
-fn main() {                // <2>
+fn main() {               
   let n: f32 = 340.44;
 
   let (sign, exp, frac) = to_parts(n);
