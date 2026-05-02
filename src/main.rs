@@ -21,7 +21,7 @@ const RADIX: f32 = 2.0;
 
 fn main() {               
   let n: f32 = 340.44;
-
+//adding functiobs
   let (sign, exp, frac) = to_parts(n);
   let (sign_, exp_, mant) = decode(sign, exp, frac);
   let n_ = from_parts(sign_, exp_, mant);
