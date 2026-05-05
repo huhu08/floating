@@ -35,6 +35,8 @@ fn main() {
 
 fn to_parts(n: f32) -> (u32, u32, u32) {
   let bits = n.to_bits();
+   //the float number has 3 sections
+  // الرقم الكسري مكون من ٣ اجزا
 
   let sign     = (bits >> 31) & 1;    // <3>
   let exponent = (bits >> 23) & 0xff; // <4>
